@@ -118,36 +118,12 @@
 			<option value="Sports">⚽ Sports</option>
 			<option value="News">📰 News</option>
 			
-
-
-
-			
-
         </select>
 
         <input type="submit" value="Browse Videos">
     </form>
 
-    <!-- Video Display Grid -->
-    <div class="video-grid">
-        <!-- Static Sample Videos -->
-        <div class="video-card">
-            <video src="uploaded_videos/education1.mp4" controls></video>
-            <div class="video-title">Let's learn parts of body</div>
-        </div>
-
-        <div class="video-card">
-            <video src="uploaded_videos/education2.mp4" controls></video>
-            <div class="video-title">Coding</div>
-        </div>
-
-        <div class="video-card">
-            <video src="uploaded_videos/entertainment1.mp4" controls></video>
-            <div class="video-title">Bom Diggy Diggy</div>
-        </div>
-
-        
-    </div>
+    <%@ include file="videoDisplay.jsp" %>
 
 </div>
 
