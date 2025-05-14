@@ -3,19 +3,39 @@
 <head>
     <title>VeeGo Video Browsing System</title>
     <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
         body {
-            background-color: #e7ffe7;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #ffe7e7;
             font-family: Arial, sans-serif;
             text-align: center;
+        }
+
+        .content {
             padding-top: 100px;
+            flex: 1;
         }
+
         h1 {
-            color: #28a745;
+            color: #dc3545;
         }
+
         a {
             color: #007bff;
             text-decoration: none;
             font-weight: bold;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
         }
     </style>
 </head>
@@ -29,4 +49,6 @@
     <%@ include file="footer.jsp" %>
 </body>
 </html>
+
+
 
